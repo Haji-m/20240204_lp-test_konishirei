@@ -95,21 +95,21 @@ p,.news-list,small,th,td{
 }
 
 .firstview-textwrapper{
-    width: 700px;
     display: block;
 }
 
-@media screen and (min-width:1500px) {
+@media screen and (max-width:1500px) {
     .firstview img {
         height: 600px;
+        margin-top: 55px;
     }
 
     .firstview-textwrapper {
-        margin: -450px 20%;
+        margin: -400px 10% -300px 20%;
     }
 }
 
-@media screen and (min-width:900px) {
+/* @media screen and (min-width:900px) {
     .firstview img {
         height: 400px;
         margin-top: 55px;
@@ -118,7 +118,7 @@ p,.news-list,small,th,td{
     .firstview-textwrapper {
         margin: -370px 10%;
     }
-}
+} */
 
 .firstview-title{
     font-size: 70px;
