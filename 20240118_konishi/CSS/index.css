@@ -1,3 +1,7 @@
+body{
+    width: 100vw;
+}
+
 header {
     height: 60px;
     width: 100%;
@@ -48,11 +52,10 @@ header .header-right nav ul li{
 }
 
 .about,.service,.blog{
-    padding: 50px 100px;
+    padding: 50px 0;
 }
 
 .about,.blog,footer{
-    width: auto;
     background: #F5F5F5;
 }
 
@@ -77,11 +80,11 @@ p,.news-list,small,th,td{
 }
 
 .content-wrapper{
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .title-wrapper{
-    padding: 40px;
+    padding: 40px 0;
     margin: 20px;
 }
 
@@ -90,16 +93,17 @@ p,.news-list,small,th,td{
     text-align: right;
 }
 
-.firstview img {
+.firstview-img img {
     height: 500px;
+    text-align: right;
 }
 
 .firstview-textwrapper{
     display: block;
 }
 
-@media screen and (max-width:1500px) {
-    .firstview img {
+@media screen and (min-width:1200px) {
+    .firstview-img img {
         height: 600px;
         margin-top: 55px;
     }
@@ -109,16 +113,16 @@ p,.news-list,small,th,td{
     }
 }
 
-/* @media screen and (min-width:900px) {
-    .firstview img {
-        height: 400px;
-        margin-top: 55px;
+@media screen and (max-width:1300px) {
+    .firstview-img img {
+        height: 450px;
+        margin-top: 60px;
     }
 
     .firstview-textwrapper {
-        margin: -370px 10%;
+        margin: -350px 10%;
     }
-} */
+}
 
 .firstview-title{
     font-size: 70px;
@@ -167,6 +171,7 @@ p,.news-list,small,th,td{
 }
 
 .about-content {
+    width: auto;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -182,6 +187,7 @@ p,.news-list,small,th,td{
 }
 
 .about-img{
+    display: block;
     margin-left: 100px;
 }
 
@@ -257,18 +263,8 @@ p,.news-list,small,th,td{
     margin-left: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .blog-wrapper {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -281,7 +277,7 @@ p,.news-list,small,th,td{
 }
 
 .blog-card-space{
-    margin: 0 40px;
+    margin: 0 2%;
 }
 
 .card-img {
